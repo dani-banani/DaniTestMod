@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "danimod",
+	"version": "0.1-1.21.5",
+	"name": "Example mod",
+	"description": "Blablabla",
+	"authors": [
+		"dani"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/danimod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dani.RENAMEME.DaniMod"
+		],
+		"client": [
+			"com.dani.RENAMEME.DaniModClient"
+		]
+	},
+	"mixins": [
+		"danimod.mixins.json",
+		{
+			"config": "danimod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "com.dani.RENAMEME.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "DaniMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
+
