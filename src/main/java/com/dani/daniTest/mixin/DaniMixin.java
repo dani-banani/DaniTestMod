@@ -1,4 +1,4 @@
-package com.dani.RENAMEME.mixin;
+package com.dani.daniTest.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

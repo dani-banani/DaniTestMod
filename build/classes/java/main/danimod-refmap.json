@@ -1,12 +1,12 @@
 {
   "mappings": {
-    "com/dani/RENAMEME/mixin/DaniMixin": {
+    "com/dani/daniTest/mixin/DaniMixin": {
       "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
     }
   },
   "data": {
     "named:intermediary": {
-      "com/dani/RENAMEME/mixin/DaniMixin": {
+      "com/dani/daniTest/mixin/DaniMixin": {
         "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
       }
     }

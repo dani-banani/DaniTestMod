@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.dani.RENAMEME.DaniMod"
+			"com.dani.daniTest.DaniMod"
 		],
 		"client": [
-			"com.dani.RENAMEME.DaniModClient"
+			"com.dani.daniTest.DaniModClient"
 		]
 	},
 	"mixins": [

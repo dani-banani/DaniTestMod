@@ -1,4 +1,4 @@
-package com.dani.RENAMEME;
+package com.dani.daniTest;
 
 import net.fabricmc.api.ClientModInitializer;
 
