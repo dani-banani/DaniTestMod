@@ -1,0 +1,1 @@
+/give @s danimod:example_item

@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.dani.daniTest.item.ModItemGroup;
 import com.dani.daniTest.item.ModItems;
 
 public class DaniMod implements ModInitializer {
@@ -13,7 +14,8 @@ public class DaniMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItems.registerModItems();
+		ModItems.initialize();
+        ModItemGroup.DANI_ITEM_GROUP.getDisplayName();
         LOGGER.info("Hello Fabric world!");
     }
 }
